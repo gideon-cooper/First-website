@@ -1,8 +1,23 @@
-body{
-    text-align: center;
-  
+body {
+  background-image: linear-gradient(coral, lightblue);
+  background-size: auto;
+  background-repeat: no-repeat;
 }
-h1, a{
-    position: relative;
-    top:300px;;
-}s
+nav {
+  display: inline-flex;
+}
+h1 {
+  display: inline;
+}
+a {
+  padding: 10px;
+}
+.postOne,
+.postTwo,
+.postThree,
+.postFour {
+  background-color: #f4f4f4;
+}
+.pheading {
+  font-weight: bold;
+}
